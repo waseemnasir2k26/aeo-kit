@@ -1,0 +1,45 @@
+.aeo-faq {
+	margin: 1.5em 0;
+}
+
+.aeo-faq__title {
+	margin: 0 0 0.6em;
+}
+
+.aeo-faq__item {
+	border: 1px solid #e2e2e2;
+	border-radius: 8px;
+	margin: 0 0 10px;
+	padding: 0;
+	background: #fff;
+}
+
+.aeo-faq__q {
+	cursor: pointer;
+	list-style: none;
+	padding: 14px 18px;
+	font-weight: 600;
+	position: relative;
+}
+
+.aeo-faq__q::-webkit-details-marker {
+	display: none;
+}
+
+.aeo-faq__q::after {
+	content: "+";
+	position: absolute;
+	right: 18px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 1.2em;
+	color: #888;
+}
+
+.aeo-faq__item[open] .aeo-faq__q::after {
+	content: "\2013";
+}
+
+.aeo-faq__a {
+	padding: 0 18px 14px;
+}
