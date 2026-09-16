@@ -9,6 +9,10 @@
 
 ---
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ## Why
 
 AI answer engines now decide who gets cited. Most "AI SEO" plugins solve this by sending your content to **their** paid cloud — recurring cost, privacy exposure, vendor lock-in.
