@@ -1,0 +1,5 @@
+- aeo-kit is a public GPLv2+ WordPress plugin (v1.0.0) that adds on-site Answer Engine Optimization: an /llms.txt generator, JSON-LD schema, per-post citation summaries and an [aeo_faq] shortcode, with no external API.
+- Current state: unchanged since the v1.0.0 feature commit on 2026-05-29; the only later commit is the September 2026 docs release.
+- Reviewed October 2026: README external links (llmstxt.org, Google Rich Results Test, validator.schema.org, skynetjoe.com) all returned HTTP 200; docs and release metadata refreshed.
+- No PHP or asset changes were made; the plugin header version was left at 1.0.0 on purpose so the WordPress-side version is not misreported.
+- Known gaps: no automated tests, PHPCS/WPCS config or CI; not listed on the WordPress.org plugin directory.
